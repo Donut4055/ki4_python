@@ -1,0 +1,17 @@
+[
+  {
+    "user": "C",
+    "action": "login",
+    "duration": 3
+  },
+  {
+    "user": "A",
+    "action": "download",
+    "duration": 8
+  },
+  {
+    "user": "B",
+    "action": "login",
+    "duration": 4
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "user": "A",
+    "action": "login",
+    "duration": 5
+  },
+  {
+    "user": "B",
+    "action": "logout",
+    "duration": 2
+  },
+  {
+    "user": "A",
+    "action": "upload",
+    "duration": 10
+  }
+]
