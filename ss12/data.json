@@ -1,0 +1,47 @@
+[
+  {
+    "student_id": "SV001",
+    "name": "Nguyễn Văn An",
+    "math_score": 8.5,
+    "physics_score": 7.0,
+    "chemistry_score": 9.0,
+    "avg_score": 8.17,
+    "classification": "Giỏi"
+  },
+  {
+    "student_id": "SV002",
+    "name": "Trần Thị Bình",
+    "math_score": 6.5,
+    "physics_score": 7.5,
+    "chemistry_score": 6.0,
+    "avg_score": 6.67,
+    "classification": "Khá"
+  },
+  {
+    "student_id": "SV003",
+    "name": "Lê Hoàng Cường",
+    "math_score": 5.0,
+    "physics_score": 5.5,
+    "chemistry_score": 5.0,
+    "avg_score": 5.17,
+    "classification": "Trung Bình"
+  },
+  {
+    "student_id": "SV004",
+    "name": "Phạm Thị Dung",
+    "math_score": 9.0,
+    "physics_score": 8.5,
+    "chemistry_score": 9.5,
+    "avg_score": 9.0,
+    "classification": "Giỏi"
+  },
+  {
+    "student_id": "SV005",
+    "name": "Hoàng Văn Em",
+    "math_score": 4.0,
+    "physics_score": 4.5,
+    "chemistry_score": 3.5,
+    "avg_score": 4.0,
+    "classification": "Yếu"
+  }
+]
