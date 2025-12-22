@@ -86,10 +86,6 @@
     </record>
 
     <!-- Menu -->
-    <menuitem id="menu_estate_root"
-              name="Bất động sản"
-              sequence="40"/>
-
     <menuitem id="menu_estate_customer"
               name="Khách hàng"
               parent="menu_estate_root"

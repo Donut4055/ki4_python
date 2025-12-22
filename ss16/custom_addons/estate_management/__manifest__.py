@@ -17,8 +17,9 @@
     'depends': ['base'],
     'data': [
         'security/ir.model.access.csv',
-        'views/customer_views.xml',
+        'security/estate_security.xml',
         'views/estate_property_views.xml',
+        'views/customer_views.xml',
     ],
     'installable': True,
     'application': True,

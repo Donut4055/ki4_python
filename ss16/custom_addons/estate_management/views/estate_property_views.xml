@@ -105,7 +105,12 @@
         </field>
     </record>
 
-    <!-- Menu -->
+    <!-- Root Menu -->
+    <menuitem id="menu_estate_root"
+              name="Bất động sản"
+              sequence="40"/>
+
+    <!-- Property Submenu -->
     <menuitem id="menu_estate_property"
               name="Bất động sản"
               parent="menu_estate_root"

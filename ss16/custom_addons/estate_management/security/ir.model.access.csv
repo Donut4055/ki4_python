@@ -1,3 +1,3 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_estate_customer,estate.customer,model_estate_customer,base.group_user,1,1,1,1
-access_estate_property,estate.property,model_estate_property,base.group_user,1,1,1,1
+access_estate_customer_agent,estate.customer.agent,model_estate_customer,group_estate_agent,1,0,0,0
+access_estate_customer_manager,estate.customer.manager,model_estate_customer,group_estate_manager,1,1,1,1
