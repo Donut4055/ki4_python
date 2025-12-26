@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_hotel_customer_form" model="ir.ui.view">
+        <field name="name">hotel.customer.form</field>
+        <field name="model">hotel.customer</field>
+        <field name="arch" type="xml">
+            <form string="Khách hàng">
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" placeholder="Tên khách hàng"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="identity_card"/>
+                        </group>
+                        <group>
+                            <field name="phone"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_hotel_customer_tree" model="ir.ui.view">
+        <field name="name">hotel.customer.tree</field>
+        <field name="model">hotel.customer</field>
+        <field name="arch" type="xml">
+            <tree string="Khách hàng" default_order="name">
+                <field name="name"/>
+                <field name="identity_card"/>
+                <field name="phone"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_hotel_customer_search" model="ir.ui.view">
+        <field name="name">hotel.customer.search</field>
+        <field name="model">hotel.customer</field>
+        <field name="arch" type="xml">
+            <search string="Tìm kiếm khách hàng">
+                <field name="name"/>
+                <field name="phone"/>
+                <field name="identity_card"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_hotel_customer" model="ir.actions.act_window">
+        <field name="name">Khách hàng</field>
+        <field name="res_model">hotel.customer</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+</odoo>
